@@ -1,0 +1,25 @@
+<resources>
+
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/color_gray</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="LightButton" parent="Widget.AppCompat.Button">
+        <item name="android:background" >@drawable/button_light_selector</item>
+    </style>
+    <style name="DarkButton" parent="Widget.AppCompat.Button">
+        <item name="android:background" >@drawable/button_dark_selector</item>
+    </style>
+</resources>
